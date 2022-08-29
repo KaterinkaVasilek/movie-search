@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext");
+@import "variables";
+@import "base";
+@import "partials/header";
+@import "partials/content";
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}

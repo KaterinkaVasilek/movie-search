@@ -1,0 +1,19 @@
+.header {
+    background-color: #373b6a;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+    &__search {
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #373b6a;
+        width: 200px;
+        border: 1px solid #000000;
+        font-size: 16px;
+    }
+}
+
+.header__search::placeholder {
+    color: #5d629c;
+}
